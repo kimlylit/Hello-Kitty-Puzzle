@@ -8,7 +8,7 @@ var otherTile; //blank tile
 var turns = 0;
 
 // var imgOrder = ["1", "2", "3", "4", "5", "6", "7", "8", "white"];
-var imgOrder = ["4", "2", "8", "5", "1", "6", "7", "9", "white"];
+var imgOrder = ["4", "1", "3", "7", "2", "6", "white", "5", "8"];
 
 window.onload = function() {
     for (let r=0; r < rows; r++) {
@@ -84,5 +84,6 @@ function dragEnd(){
     turns += 1;
     document.getElementById("turns").innerText = turns;
     }
+
 
 }
